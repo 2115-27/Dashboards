@@ -1,0 +1,77 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 7,
+  "links": [],
+  "panels": [
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "edqfdmwlszzswd"
+      },
+      "gridPos": {
+        "h": 15,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "code": {
+          "language": "plaintext",
+          "showLineNumbers": false,
+          "showMiniMap": false
+        },
+        "content": "<h1 style=\"height: 40px; padding-left: 300px; padding-top: 3px; color: hsl(0, 0%, 70%); border-top: 1px solid hsl(0, 0%, 30%); border-bottom: 1px solid hsl(0, 0%, 60%); background-image: linear-gradient(150deg, rgba(255,255,255,0.8), rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0));\">Metrics-Level Documentation</h1>\n\n<h4><u><i>What Are Metrics?</i></u><h4>\n<h6>* Metrics are quantitavive measures used to monitor and assess the performance,behavior and health of various systems, applications and infrastructure components.<br>\n* In the context of monitoring and observability platforms like Grafana, metrics are critical for understanding how well systems are functioning,identifying pottential issues and making informed decisions based on data.</h6><br>\n\n<h4><u><i>Why Metrics Matter?</i></u><h4>\n<h6>* Metrics provide essential data that supports the effective operation,optimization and management of systems and applications. <br>* Metrics are vital for monitoring,performance tuning,troubleshooting,capacity planning and compliance.\n<br>* Metrics enable pro-active monitoring,quick probelm resolution,informed decision-making and continuous improvemnet.</h6><br>\n\n<u><i><h1 style=\"text-align: left; background-color: grey; color: white; padding: 5px; font-size: 22px;\">InfraStructure Metrics:</h1></u></i>\n\n ",
+        "mode": "markdown"
+      },
+      "pluginVersion": "11.1.0",
+      "targets": [
+        {
+          "datasource": {
+            "type": "prometheus",
+            "uid": "edqfdmwlszzswd"
+          },
+          "expr": "",
+          "instant": false,
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "Panel Title",
+      "type": "text"
+    }
+  ],
+  "schemaVersion": 39,
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Sample-help",
+  "uid": "edqixahg6neo0a",
+  "version": 1,
+  "weekStart": ""
+}
